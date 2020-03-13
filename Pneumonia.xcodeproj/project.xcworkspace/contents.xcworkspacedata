@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Pneumonia.xcodeproj">
+      location = "self:/Users/carlos.chaguendo/Documents/FUP/Pneumonia/Pneumonia Detection.xcodeproj">
    </FileRef>
 </Workspace>
