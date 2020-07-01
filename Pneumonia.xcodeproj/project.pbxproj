@@ -10,11 +10,17 @@
 		2F229EA1241179F70060045E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F229EA0241179F70060045E /* AppDelegate.swift */; };
 		2F229EA3241179F70060045E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F229EA2241179F70060045E /* SceneDelegate.swift */; };
 		2F229EA5241179F70060045E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F229EA4241179F70060045E /* FirstViewController.swift */; };
-		2F229EA7241179F70060045E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F229EA6241179F70060045E /* SecondViewController.swift */; };
+		2F229EA7241179F70060045E /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F229EA6241179F70060045E /* PhotosViewController.swift */; };
 		2F229EAA241179F70060045E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F229EA8241179F70060045E /* Main.storyboard */; };
 		2F229EAC241179FA0060045E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F229EAB241179FA0060045E /* Assets.xcassets */; };
 		2F229EAF241179FA0060045E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F229EAD241179FA0060045E /* LaunchScreen.storyboard */; };
 		2F229EBA241179FB0060045E /* PneumoniaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F229EB9241179FB0060045E /* PneumoniaTests.swift */; };
+		2F229EC624117F4B0060045E /* PropertyBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F229EC524117F4B0060045E /* PropertyBuilder.swift */; };
+		2FB46E71241C3241003C76A7 /* ScanResultCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB46E70241C3241003C76A7 /* ScanResultCollectionViewCell.swift */; };
+		2FB46E73241C3308003C76A7 /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB46E72241C3308003C76A7 /* CollectionView.swift */; };
+		2FB46E76241C38F1003C76A7 /* p-neumonia1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 2FB46E75241C38F1003C76A7 /* p-neumonia1.mlmodel */; };
+		2FB46E78241C3E1C003C76A7 /* UINavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB46E77241C3E1C003C76A7 /* UINavigationBar.swift */; };
+		2FB46E7A241C423C003C76A7 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB46E79241C423C003C76A7 /* UIImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +38,7 @@
 		2F229EA0241179F70060045E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F229EA2241179F70060045E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2F229EA4241179F70060045E /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		2F229EA6241179F70060045E /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		2F229EA6241179F70060045E /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
 		2F229EA9241179F70060045E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2F229EAB241179FA0060045E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F229EAE241179FA0060045E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -40,6 +46,12 @@
 		2F229EB5241179FB0060045E /* PneumoniaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PneumoniaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F229EB9241179FB0060045E /* PneumoniaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PneumoniaTests.swift; sourceTree = "<group>"; };
 		2F229EBB241179FB0060045E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F229EC524117F4B0060045E /* PropertyBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyBuilder.swift; sourceTree = "<group>"; };
+		2FB46E70241C3241003C76A7 /* ScanResultCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanResultCollectionViewCell.swift; sourceTree = "<group>"; };
+		2FB46E72241C3308003C76A7 /* CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
+		2FB46E75241C38F1003C76A7 /* p-neumonia1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "p-neumonia1.mlmodel"; sourceTree = "<group>"; };
+		2FB46E77241C3E1C003C76A7 /* UINavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationBar.swift; sourceTree = "<group>"; };
+		2FB46E79241C423C003C76A7 /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,14 +93,17 @@
 		2F229E9F241179F70060045E /* Pneumonia */ = {
 			isa = PBXGroup;
 			children = (
+				2FB46E74241C38E1003C76A7 /* CoreML */,
+				2F229EC424117F270060045E /* Extensions */,
 				2F229EA0241179F70060045E /* AppDelegate.swift */,
 				2F229EA2241179F70060045E /* SceneDelegate.swift */,
 				2F229EA4241179F70060045E /* FirstViewController.swift */,
-				2F229EA6241179F70060045E /* SecondViewController.swift */,
+				2F229EA6241179F70060045E /* PhotosViewController.swift */,
 				2F229EA8241179F70060045E /* Main.storyboard */,
 				2F229EAB241179FA0060045E /* Assets.xcassets */,
 				2F229EAD241179FA0060045E /* LaunchScreen.storyboard */,
 				2F229EB0241179FA0060045E /* Info.plist */,
+				2FB46E70241C3241003C76A7 /* ScanResultCollectionViewCell.swift */,
 			);
 			path = Pneumonia;
 			sourceTree = "<group>";
@@ -100,6 +115,25 @@
 				2F229EBB241179FB0060045E /* Info.plist */,
 			);
 			path = PneumoniaTests;
+			sourceTree = "<group>";
+		};
+		2F229EC424117F270060045E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2F229EC524117F4B0060045E /* PropertyBuilder.swift */,
+				2FB46E72241C3308003C76A7 /* CollectionView.swift */,
+				2FB46E77241C3E1C003C76A7 /* UINavigationBar.swift */,
+				2FB46E79241C423C003C76A7 /* UIImage.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2FB46E74241C38E1003C76A7 /* CoreML */ = {
+			isa = PBXGroup;
+			children = (
+				2FB46E75241C38F1003C76A7 /* p-neumonia1.mlmodel */,
+			);
+			path = CoreML;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,7 +193,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2F229E98241179F70060045E /* Build configuration list for PBXProject "Pneumonia Detection" */;
+			buildConfigurationList = 2F229E98241179F70060045E /* Build configuration list for PBXProject "Pneumonia" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -203,9 +237,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F229EA7241179F70060045E /* SecondViewController.swift in Sources */,
+				2F229EA7241179F70060045E /* PhotosViewController.swift in Sources */,
+				2FB46E7A241C423C003C76A7 /* UIImage.swift in Sources */,
 				2F229EA5241179F70060045E /* FirstViewController.swift in Sources */,
+				2FB46E73241C3308003C76A7 /* CollectionView.swift in Sources */,
+				2FB46E71241C3241003C76A7 /* ScanResultCollectionViewCell.swift in Sources */,
+				2F229EC624117F4B0060045E /* PropertyBuilder.swift in Sources */,
 				2F229EA1241179F70060045E /* AppDelegate.swift in Sources */,
+				2FB46E78241C3E1C003C76A7 /* UINavigationBar.swift in Sources */,
+				2FB46E76241C38F1003C76A7 /* p-neumonia1.mlmodel in Sources */,
 				2F229EA3241179F70060045E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -367,7 +407,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 67ALQ9GQUD;
+				DEVELOPMENT_TEAM = 5NWXU54BBD;
 				INFOPLIST_FILE = Pneumonia/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -385,7 +425,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 67ALQ9GQUD;
+				DEVELOPMENT_TEAM = 5NWXU54BBD;
 				INFOPLIST_FILE = Pneumonia/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -445,7 +485,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2F229E98241179F70060045E /* Build configuration list for PBXProject "Pneumonia Detection" */ = {
+		2F229E98241179F70060045E /* Build configuration list for PBXProject "Pneumonia" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2F229EBC241179FB0060045E /* Debug */,

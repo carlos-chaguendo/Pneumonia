@@ -17,8 +17,9 @@ class ScanResultCollectionViewCell: UICollectionViewCell {
     
     public var scan: ScanResult! {
         didSet {
+            let conf = Double(String(format: "%.2f", scan.confidence)) ?? 0
             imageView.image = scan.image
-            confidence.text = String(format: "%.2f", scan.confidence) 
+            confidence.text = "\(conf * 100) %"
             label.text = scan.label
             
             imageView.layer.cornerRadius = 12

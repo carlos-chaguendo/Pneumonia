@@ -22,8 +22,13 @@ class PhotosViewController: UICollectionViewController, UIImagePickerControllerD
     private var images: [ScanResult] = []
     private let model = p_neumonia1()
 
+    private var needsAddBlurEffect = true
+
     override func loadView() {
         super.loadView()
+
+        
+
     }
 
     override func viewDidLoad() {
@@ -46,6 +51,22 @@ class PhotosViewController: UICollectionViewController, UIImagePickerControllerD
     }
 
 
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+
+        if needsAddBlurEffect {
+            let statusBarView = UIView(frame: CGRect(x: 0, y: 0, width: view.frame.size.width, height: UIApplication.shared.statusBarFrame.height))
+            let blurEffect = UIBlurEffect(style: .regular)
+            let blurEffectView = UIVisualEffectView(effect: blurEffect)
+            blurEffectView.frame = statusBarView.bounds
+            blurEffectView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+            statusBarView.addSubview(blurEffectView)
+            view.addSubview(statusBarView)
+
+            needsAddBlurEffect = false
+        }
+    }
+
 
     @objc private func pickImageAction() {
         pickerController.delegate = self
@@ -62,7 +83,6 @@ class PhotosViewController: UICollectionViewController, UIImagePickerControllerD
         guard let image = (info[.editedImage] ?? info[.originalImage]) as? UIImage else {
             return
         }
-
         guard let buffer = image.toPixelBuffer() else {
             return
         }
